@@ -20,3 +20,5 @@ test-output/
 /target
 .DS_Store
 .gitignore
+.idea
+aurin-wif.iml
