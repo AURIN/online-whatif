@@ -139,7 +139,7 @@ public class AllocationLUServiceClientImpl implements AllocationLUServiceClient 
         allocationLU, headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/allocationLUs/" + id, HttpMethod.PUT,
-        requestEntity, null);
+        requestEntity, Object.class);
   }
 
   /*
@@ -155,7 +155,7 @@ public class AllocationLUServiceClientImpl implements AllocationLUServiceClient 
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/allocationLUs/" + id, HttpMethod.DELETE,
-        requestEntity, null);
+        requestEntity, Object.class);
   }
 
 }

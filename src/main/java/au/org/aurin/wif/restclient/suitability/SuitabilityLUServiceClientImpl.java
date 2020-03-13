@@ -139,7 +139,7 @@ public class SuitabilityLUServiceClientImpl implements
         suitabilityLU, headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/suitabilityLUs/" + id, HttpMethod.PUT,
-        requestEntity, null);
+        requestEntity, void.class);
   }
 
   /*
@@ -155,7 +155,7 @@ public class SuitabilityLUServiceClientImpl implements
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/suitabilityLUs/" + id, HttpMethod.DELETE,
-        requestEntity, null);
+        requestEntity, void.class);
   }
 
   /*
@@ -172,7 +172,7 @@ public class SuitabilityLUServiceClientImpl implements
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/suitabilityLUs/" + suitabilityLUId
-        + "/associatedLUs/" + id, HttpMethod.PUT, requestEntity, null);
+        + "/associatedLUs/" + id, HttpMethod.PUT, requestEntity, void.class);
   }
 
   /*
@@ -189,7 +189,7 @@ public class SuitabilityLUServiceClientImpl implements
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/suitabilityLUs/" + suitabilityLUId
-        + "/associatedLUs/" + id, HttpMethod.DELETE, requestEntity, null);
+        + "/associatedLUs/" + id, HttpMethod.DELETE, requestEntity, void.class);
   }
 
   /*

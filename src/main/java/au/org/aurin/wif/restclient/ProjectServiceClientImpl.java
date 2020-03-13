@@ -145,7 +145,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     final ResponseEntity<Object> response = restTemplate.exchange(
         removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI + "/" + id
-            + "/zipUAZ", HttpMethod.GET, requestEntity, null);
+            + "/zipUAZ", HttpMethod.GET, requestEntity, Object.class);
 
     if (response.getStatusCode() != HttpStatus.OK) {
       throw new ServiceException("HTTP Response Status Code: "
@@ -170,7 +170,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(wifProject,
         headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
-        + "/" + id, HttpMethod.PUT, requestEntity, null);
+        + "/" + id, HttpMethod.PUT, requestEntity, void.class);
   }
 
   /*
@@ -186,7 +186,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(wifProject,
         headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
-        + "/" + id + "/allocation/setup", HttpMethod.PUT, requestEntity, null);
+        + "/" + id + "/allocation/setup", HttpMethod.PUT, requestEntity, void.class);
   }
 
   /*
@@ -200,7 +200,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     headers.add(HEADER_USER_ID_KEY, roleId);
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
-        + "/" + id, HttpMethod.DELETE, requestEntity, null);
+        + "/" + id, HttpMethod.DELETE, requestEntity, void.class);
   }
 
   /*
@@ -219,7 +219,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     final HttpEntity<List<String>> requestEntity = new HttpEntity<List<String>>(
         factorsList, headers);
     final ResponseEntity<Object> response = restTemplate.exchange(urlquery,
-        HttpMethod.PUT, requestEntity, null);
+        HttpMethod.PUT, requestEntity, Object.class);
 
     if (response.getStatusCode() != HttpStatus.OK) {
       throw new ServiceException(
@@ -405,7 +405,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     }
 
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
-        + "/" + id + option, HttpMethod.DELETE, requestEntity, null);
+        + "/" + id + option, HttpMethod.DELETE, requestEntity, void.class);
   }
 
   /*
@@ -471,7 +471,7 @@ public class ProjectServiceClientImpl implements ProjectServiceClient {
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
 
     final ResponseEntity<Object> response = restTemplate.exchange(urlquery,
-        HttpMethod.POST, requestEntity, null);
+        HttpMethod.POST, requestEntity, Object.class);
 
     if (response.getStatusCode() != HttpStatus.OK) {
       throw new ServiceException("HTTP Response Status Code: "

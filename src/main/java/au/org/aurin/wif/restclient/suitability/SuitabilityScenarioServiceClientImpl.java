@@ -145,7 +145,7 @@ public class SuitabilityScenarioServiceClientImpl implements
         suitabilityScenario, headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/suitabilityScenarios/" + id, HttpMethod.PUT,
-        requestEntity, null);
+        requestEntity, void.class);
   }
 
   /*
@@ -162,7 +162,7 @@ public class SuitabilityScenarioServiceClientImpl implements
     final String requestURL = removeTrailingSlash(url)
         + OWIURLs.PROJECT_SVC_URI + "/" + projectId + "/suitabilityScenarios/"
         + id;
-    restTemplate.exchange(requestURL, HttpMethod.DELETE, requestEntity, null);
+    restTemplate.exchange(requestURL, HttpMethod.DELETE, requestEntity, void.class);
   }
 
   /*
@@ -192,7 +192,7 @@ public class SuitabilityScenarioServiceClientImpl implements
         + "/{projectId}/suitabilityScenarios/{id}/async/wms";
 
     final ResponseEntity<Object> response = restTemplate.exchange(requestURL,
-        HttpMethod.POST, entity, null, urlparams);
+        HttpMethod.POST, entity, Object.class, urlparams);
 
     if (response.getStatusCode() != HttpStatus.OK) {
       throw new ServiceException("HTTP Response Status Code: "

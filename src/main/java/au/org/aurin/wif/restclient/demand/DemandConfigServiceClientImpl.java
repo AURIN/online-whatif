@@ -112,7 +112,7 @@ public class DemandConfigServiceClientImpl implements DemandConfigServiceClient 
         demandConfig, headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/demand/setup/", HttpMethod.PUT, requestEntity,
-        null);
+        Object.class);
   }
 
   /*
@@ -128,7 +128,7 @@ public class DemandConfigServiceClientImpl implements DemandConfigServiceClient 
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/demand/setup/", HttpMethod.DELETE, requestEntity,
-        null);
+        Object.class);
   }
 
 }

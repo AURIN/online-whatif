@@ -141,7 +141,7 @@ public class DemandScenarioServiceClientImpl implements
         demandScenario, headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/demandScenarios/" + id, HttpMethod.PUT,
-        requestEntity, null);
+        requestEntity, void.class);
   }
 
   /*
@@ -157,7 +157,7 @@ public class DemandScenarioServiceClientImpl implements
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     final String requestURL = removeTrailingSlash(url)
         + OWIURLs.PROJECT_SVC_URI + "/" + projectId + "/demandScenarios/" + id;
-    restTemplate.exchange(requestURL, HttpMethod.DELETE, requestEntity, null);
+    restTemplate.exchange(requestURL, HttpMethod.DELETE, requestEntity, void.class);
   }
 
   /*

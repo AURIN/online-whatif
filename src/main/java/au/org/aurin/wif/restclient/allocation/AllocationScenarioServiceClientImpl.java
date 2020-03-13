@@ -149,7 +149,7 @@ public class AllocationScenarioServiceClientImpl implements
         allocationScenario, headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/allocationScenarios/" + id, HttpMethod.PUT,
-        requestEntity, null);
+        requestEntity, void.class);
   }
 
   /*
@@ -166,7 +166,7 @@ public class AllocationScenarioServiceClientImpl implements
     final String requestURL = removeTrailingSlash(url)
         + OWIURLs.PROJECT_SVC_URI + "/" + projectId + "/allocationScenarios/"
         + id;
-    restTemplate.exchange(requestURL, HttpMethod.DELETE, requestEntity, null);
+    restTemplate.exchange(requestURL, HttpMethod.DELETE, requestEntity, void.class);
   }
 
   /*
@@ -191,7 +191,7 @@ public class AllocationScenarioServiceClientImpl implements
         + "/{projectId}/allocationScenarios/{id}/asyncOutcome";
     LOGGER.debug("getOutcomeAsync " + requestURL);
     final ResponseEntity<Object> response = restTemplate.exchange(requestURL,
-        HttpMethod.PUT, requestEntity, null, urlparams);
+        HttpMethod.PUT, requestEntity, Object.class, urlparams);
 
     if (response.getStatusCode() != HttpStatus.OK) {
       throw new ServiceException("HTTP Response Status Code: "

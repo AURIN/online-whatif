@@ -135,7 +135,7 @@ public class FactorServiceClientImpl implements FactorServiceClient {
         headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/factors/" + id, HttpMethod.PUT, requestEntity,
-        null);
+        Object.class);
   }
 
   /*
@@ -151,7 +151,7 @@ public class FactorServiceClientImpl implements FactorServiceClient {
     final HttpEntity<Object> requestEntity = new HttpEntity<Object>(headers);
     restTemplate.exchange(removeTrailingSlash(url) + OWIURLs.PROJECT_SVC_URI
         + "/" + projectId + "/factors/" + id, HttpMethod.DELETE, requestEntity,
-        null);
+        Object.class);
   }
 
 }

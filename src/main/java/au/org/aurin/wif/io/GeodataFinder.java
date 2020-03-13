@@ -289,7 +289,7 @@ public class GeodataFinder {
 
       LOGGER.info("updateUAZcolumnsALU query is: " + query);
 
-      if (jdbcTemplate.queryForInt(query) == 0) {
+      if (jdbcTemplate.queryForObject(query, Integer.class) == 0) {
         query = "ALTER TABLE "
             + postgisDataStoreConfig.getDataStoreParams().get(SCHEMA.key) + "."
             + uazTbl + " ADD COLUMN \"" + factor + "\" character varying(40);";
@@ -1292,7 +1292,7 @@ public class GeodataFinder {
       LOGGER.info("updateUAZcolumnsALU query is: " + queryTxt);
 
       Boolean lsw =false;
-      if (jdbcTemplate.queryForInt( queryTxt) == 1) {
+      if (jdbcTemplate.queryForObject( queryTxt, Integer.class) == 1) {
         lsw = true;
         queryTxt = "DROP TABLE "
             + postgisDataStoreConfig.getDataStoreParams().get(SCHEMA.key) + "."

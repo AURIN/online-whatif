@@ -82,8 +82,11 @@ public class CouchWifProjectDao implements WifProjectDao {
     WifProject mapProject;
     project.setCreationDate(new Date(System.currentTimeMillis()));
     mapProject = converter.map(project);
+//    String msg = WifKeys.STANDARD_ALREADY_EXISTS_MSG + project.getId()
+//        + manager.getDb().getDbInfo().getDbName();
+
     String msg = WifKeys.STANDARD_ALREADY_EXISTS_MSG + project.getId()
-        + manager.getDb().getDbInfo().getDbName();
+            + manager.getDb().getDatabaseName();
     try {
       repository.add(mapProject);
     } catch (java.lang.IllegalArgumentException e) {

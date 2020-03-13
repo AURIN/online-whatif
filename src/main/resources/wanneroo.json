@@ -1,1 +1,2912 @@
-{"docType":"ProjectReport","projectId":"f7f24fc95346b07fdb8a5023b1024c41","label":"WannerooAdmin","reportType":"WifProject","serviceVersion":"1.0","project":{"_id":"f7f24fc95346b07fdb8a5023b1024c41","name":"Demo_for_alireza.shamakhy@unimelb.edu.au","srs":"EPSG:28350","analysisOption":"Suitability","originalUnits":"metric","existingLUAttributeName":"Exist_LU_S","docType":"WifProject","studyArea":"Wanneroo WA","bbox":"[363306.82919999957,6475574.153,394259.08480000024,6519190.3862000005]","areaLabel":"Area_ha","ready":true,"setupCompleted":true,"geometryColumnName":"the_geom","creationDate":1449554980309,"modifiedDate":1454904684617,"roleOwner":"alireza.shamakhy@unimelb.edu.au","suitabilityConfig":{"unifiedAreaZone":"wanneroo","notDevelopableScore":-100.0,"notConvertableScore":-1.0,"notSuitableScore":0.0,"undefinedScore":-999.0,"suitabilityColumns":["score_medical_and_educational","Exist_LU_S","score_residential","score_commercial","score_industrial"],"suitabilityCategories":["Medium","Low","Medium High","Medium Low","High"],"scoreColumns":["score_medical_and_educational","score_commercial","score_residential","score_industrial"]},"allocationLandUses":[{"_id":"f7f24fc95346b07fdb8a5023b1025b1c","label":"Hole","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Hole","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-5364b790b9810eb50f4c3ec1d242bd17","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102d5ea","label":"Industrial - Convertible","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Industrial - Convertible","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":false,"notDefined":false,"newPreservation":false,"_rev":"1-4ba45db710abace25575210404ece5ee","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b1029796","label":"Railway Existing","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Railway Existing","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-06e605415fc47523d7880fd4227f25cf","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102fed8","label":"Water","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Water","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-706744eabd9971732c828346a44e75f7","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102f6c2","label":"Education - Convertible","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Education - Convertible","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":false,"notDefined":false,"newPreservation":false,"_rev":"1-d5937e28df4987a3ce16313961412393","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102dacc","label":"Recreation","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Recreation","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-838a0573de261089cb310e5a8357abfd","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b1026659","label":"Industrial","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Industrial","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-ae8d15ab69d92e4a6123f9b3d7eda0e2","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b1027fd6","label":"Nature / Passive Recreation","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Nature / Passive Recreation","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-034cf952db5218ba3cbbb7250d29f0b3","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102a120","label":"Private Recreation","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Private Recreation","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-5adec731776688b05ad237a41baba6a7","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102c1cd","label":"State Forest","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"State Forest","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-24b20da7e6c8c0017d32afcb6cb70346","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102cfb4","label":"Urban Land","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Urban Land","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":false,"notDefined":false,"newPreservation":false,"_rev":"1-72079d0b631c2baecb85e4727e02e31d","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b10289d6","label":"Infrastructure / Public Purposes","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Infrastructure / Public Purposes","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-38c6911ce1a5fdda734ef35067c91afa","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102a41b","label":"Railway Proposed","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Railway Proposed","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-ec6e19fb3c1b810eaa528d4d25d2e049","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b1027363","label":"Open Space - Passive Recreation","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Open Space - Passive Recreation","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":false,"notDefined":false,"newPreservation":false,"_rev":"1-07204e72214b69c732129f44f3fbf435","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102b2b6","label":"Residential","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Residential","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-1623fe11009ab861cddf0a965f859a31","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b10264a4","label":"Transport","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Transport","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-2ab01bca7210504441f9b7a565ba80db","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b102e87e","label":"Education","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Education","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-290772c71614d962b09ed32f24f3d005","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b1027c4f","label":"Rural","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Rural","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":false,"notDefined":false,"newPreservation":false,"_rev":"1-dfd899a8625ac83c4cf9fd8b92a6e8a7","sectors":[]},{"_id":"f7f24fc95346b07fdb8a5023b1027532","label":"Commercial","docType":"AllocationLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Commercial","landUseFunction":"NOT_DEVELOPABLE_OR_UNDEFINED","groupQuarters":false,"newLU":false,"local":false,"builtUp":false,"notDevelopable":true,"notDefined":false,"newPreservation":false,"_rev":"1-b364ec5028a0954d9ca639359a1fa4aa","sectors":[]}],"suitabilityLUs":[{"_id":"f7f24fc95346b07fdb8a5023b1030a10","docType":"SuitabilityLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","label":"Medical and Educational","featureFieldName":"score_medical_and_educational","_rev":"1-bcd5d95093fb60064e17facdc3f0df30","associatedALUs":{"f7f24fc95346b07fdb8a5023b102e87e":"Education"}},{"_id":"f7f24fc95346b07fdb8a5023b10317cc","docType":"SuitabilityLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","label":"Residential","featureFieldName":"score_residential","_rev":"1-e2160c116263951b7386b62ebabb0ec3","associatedALUs":{"f7f24fc95346b07fdb8a5023b102b2b6":"Residential"}},{"_id":"f7f24fc95346b07fdb8a5023b10307b6","docType":"SuitabilityLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","label":"Industrial","featureFieldName":"score_industrial","_rev":"1-0103b31a0fc779cbbbb552d4e911d2d1","associatedALUs":{"f7f24fc95346b07fdb8a5023b1026659":"Industrial"}},{"_id":"f7f24fc95346b07fdb8a5023b103080a","docType":"SuitabilityLU","projectId":"f7f24fc95346b07fdb8a5023b1024c41","label":"Commercial","featureFieldName":"score_commercial","_rev":"1-9527d6d0ccc4afa280c71091797c1d5e","associatedALUs":{"f7f24fc95346b07fdb8a5023b1027532":"Commercial"}}],"factors":[{"_id":"f7f24fc95346b07fdb8a5023b1037c7d","label":"EnviroValue","docType":"Factor","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Env_Value","factorTypes":[{"_id":"f7f24fc95346b07fdb8a5023b1038392","label":"yes","value":"yes","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1037c7d","naturalOrder":1,"_rev":"1-76a98aec7e9e9b556c90c625cf117677"},{"_id":"f7f24fc95346b07fdb8a5023b10390de","label":"no","value":"no","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1037c7d","naturalOrder":0,"_rev":"1-440b5c7b6f5cfd8e3a63cb1f89e76041"}],"_rev":"2-d85b999cb98f51f4ac8d6b65c6de1bff"},{"_id":"f7f24fc95346b07fdb8a5023b103192a","label":"UrbanValue","docType":"Factor","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"UrbanValue","factorTypes":[{"_id":"f7f24fc95346b07fdb8a5023b1032f7c","label":"Unknown","value":"Unknown","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b103192a","naturalOrder":3,"_rev":"1-1913fa240c91707f34d9aa9057a7c0e3"},{"_id":"f7f24fc95346b07fdb8a5023b1033823","label":"Very Low","value":"Very Low","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b103192a","naturalOrder":5,"_rev":"1-95b116a7a4d2686ad8305679b4a40aab"},{"_id":"f7f24fc95346b07fdb8a5023b1033309","label":"High","value":"High","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b103192a","naturalOrder":0,"_rev":"1-9a20afb01e926ea1ce3ec21e854c3428"},{"_id":"f7f24fc95346b07fdb8a5023b1033511","label":"Medium","value":"Medium","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b103192a","naturalOrder":2,"_rev":"1-6fc8611785a3aaa38998d1aa12feff72"},{"_id":"f7f24fc95346b07fdb8a5023b1031bf7","label":"Very High","value":"Very High","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b103192a","naturalOrder":4,"_rev":"1-46e650afd7093b7ede9ca35be8202f18"},{"_id":"f7f24fc95346b07fdb8a5023b10327a1","label":"Low","value":"Low","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b103192a","naturalOrder":1,"_rev":"1-f1d55260e299ff770d0b144d72f17e6b"}],"_rev":"2-6a98d1fe6cc03cb3b03b09ed8253c021"},{"_id":"f7f24fc95346b07fdb8a5023b10347af","label":"ActCentre","docType":"Factor","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"ActCentre","factorTypes":[{"_id":"f7f24fc95346b07fdb8a5023b10378d5","label":"Strategic AC","value":"Strategic AC","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b10347af","naturalOrder":3,"_rev":"1-9a0f30edbcb839325d87daa9c7d676bd"},{"_id":"f7f24fc95346b07fdb8a5023b1036c64","label":"District Centre","value":"District Centre","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b10347af","naturalOrder":0,"_rev":"1-094c55362c35a3c2513602d0380981d4"},{"_id":"f7f24fc95346b07fdb8a5023b10356cb","label":"None","value":"None","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b10347af","naturalOrder":1,"_rev":"1-3446bc886ff1a8c755e2aa92d902a894"},{"_id":"f7f24fc95346b07fdb8a5023b1035d17","label":"Secondary Centre","value":"Secondary Centre","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b10347af","naturalOrder":2,"_rev":"1-03027a1bc36662e3f43fa6d94c277fd3"}],"_rev":"2-54da5629411584af0a337debc4ac1601"},{"_id":"f7f24fc95346b07fdb8a5023b1039c7e","label":"UrbanExpansion","docType":"Factor","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"UrbanExpan","factorTypes":[{"_id":"f7f24fc95346b07fdb8a5023b103ad1b","label":"Urban Expansion","value":"Urban Expansion","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1039c7e","naturalOrder":4,"_rev":"1-0e6ee5a322cb84b5feffaae22ea616ca"},{"_id":"f7f24fc95346b07fdb8a5023b103cbe2","label":"Urban Investigation","value":"Urban Investigation","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1039c7e","naturalOrder":5,"_rev":"1-9278ac6578d36bc306c20cb972b3e624"},{"_id":"f7f24fc95346b07fdb8a5023b103a8c8","label":"IndustrialExpansion","value":"IndustrialExpansion","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1039c7e","naturalOrder":0,"_rev":"1-8c20830c68507c9f41a1b978725f002d"},{"_id":"f7f24fc95346b07fdb8a5023b103b1ff","label":"No Expansion","value":"No Expansion","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1039c7e","naturalOrder":1,"_rev":"1-76c2d35a3ea4f8f986bf150c5ea15635"},{"_id":"f7f24fc95346b07fdb8a5023b103c06c","label":"Urban","value":"Urban","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1039c7e","naturalOrder":2,"_rev":"1-3d9efa925d23cf1175181b3a11e9fdeb"},{"_id":"f7f24fc95346b07fdb8a5023b103ac24","label":"Urban Deferred","value":"Urban Deferred","docType":"FactorType","factorId":"f7f24fc95346b07fdb8a5023b1039c7e","naturalOrder":3,"_rev":"1-949fb848548a14d367150f2c3e1bcb34"}],"_rev":"2-9c7a5ae8e592ba91a4cc2229285b6165"}],"allocationConfigsId":"f7f24fc95346b07fdb8a5023b103eb26","demandConfigId":"f7f24fc95346b07fdb8a5023b103f717","allocationConfig":{"allocationColumnsMap":{},"undevelopedLUsColumns":[]},"_rev":"17-783c37f79292c45016b798b828125e5f","suitabilityScenarios":{},"demandScenarios":{},"demandScenarioNews":{},"demandOutcomes":{},"allocationScenarios":{},"allocationControlScenarios":{"f7f24fc95346b07fdb8a5023b103f0e7":"AllocationControl_Scenario1"}},"demandConfig":{"_id":"f7f24fc95346b07fdb8a5023b103f717","docType":"DemandConfig","projectId":"f7f24fc95346b07fdb8a5023b1024c41","populationGrowthRate":0.3660161300252416,"gqGrowthRate":0.0,"householdsGrowthRate":0.39918146605276617,"baseYear":2011,"totalPopulationFeatureFieldName":"","numberOfHouseholdsFeatureFieldName":"","numberOfHousingUnitsFeatureFieldName":"","projections":[{"year":2026,"label":"2026"},{"year":2021,"label":"2021"},{"year":2031,"label":"2031"},{"year":2011,"label":"2011"},{"year":2036,"label":"2036"},{"year":2016,"label":"2016"}],"sectors":[{"code":"02","label":"TranspUtility","featureFieldName":"Transp_Uti","associatedALUsPercentage":{"f7f24fc95346b07fdb8a5023b1026659":0.9525882316948514,"f7f24fc95346b07fdb8a5023b1027532":0.04741176830514858},"associatedALUs":{"f7f24fc95346b07fdb8a5023b1026659":"Industrial","f7f24fc95346b07fdb8a5023b1027532":"Commercial"}},{"code":"04","label":"Prof_Adm","featureFieldName":"Prof_Adm","associatedALUsPercentage":{"f7f24fc95346b07fdb8a5023b102e87e":0.03477877005724202,"f7f24fc95346b07fdb8a5023b1026659":0.9194583846255013,"f7f24fc95346b07fdb8a5023b1027532":0.04576284531725658},"associatedALUs":{"f7f24fc95346b07fdb8a5023b1026659":"Industrial","f7f24fc95346b07fdb8a5023b102e87e":"Education","f7f24fc95346b07fdb8a5023b1027532":"Commercial"}},{"code":"01","label":"Manufacturing","featureFieldName":"Manufactur","associatedALUsPercentage":{"f7f24fc95346b07fdb8a5023b1026659":1.0},"associatedALUs":{"f7f24fc95346b07fdb8a5023b1026659":"Industrial"}},{"code":"05","label":"Recreation","featureFieldName":"Recreation","associatedALUsPercentage":{"f7f24fc95346b07fdb8a5023b102a120":0.46770876423243063,"f7f24fc95346b07fdb8a5023b1027532":0.5322912357675694},"associatedALUs":{"f7f24fc95346b07fdb8a5023b102a120":"Private Recreation","f7f24fc95346b07fdb8a5023b1027532":"Commercial"}},{"code":"03","label":"TradingCommercial","featureFieldName":"Trading_Co","associatedALUsPercentage":{"f7f24fc95346b07fdb8a5023b1027532":1.0},"associatedALUs":{"f7f24fc95346b07fdb8a5023b1027532":"Commercial"}}],"currentDemographic":{"label":"2011","year":2011,"residentialCurrentData":[{"residentialLUId":"f7f24fc95346b07fdb8a5023b102b2b6","numberOfHousingUnits":56362,"density":15.12,"breakdownDensity":1.0,"vacancyRate":0.1}],"employmentCurrentDatas":[{"sectorLabel":"Prof_Adm","employees":24769},{"sectorLabel":"Manufacturing","employees":19450},{"sectorLabel":"Recreation","employees":853},{"sectorLabel":"TradingCommercial","employees":20909},{"sectorLabel":"TranspUtility","employees":3495}],"totalPopulation":152083,"housingUnits":56362,"households":51987.0,"vacancyRate":0.1},"residentialPastTrendInfos":[{"label":"2001","year":2001,"totalPopulation":81215,"households":27366,"gQPopulation":1},{"label":"2006","year":2006,"totalPopulation":110941,"households":38290,"gQPopulation":1}],"employmentPastTrendInfos":[{"label":"2006","year":2006,"employmentEntries":[{"sectorLabel":"TranspUtility","employees":2442},{"sectorLabel":"Prof_Adm","employees":16060},{"sectorLabel":"TradingCommercial","employees":15354},{"sectorLabel":"Manufacturing","employees":14494},{"sectorLabel":"Recreation","employees":585}]},{"label":"2001","year":2001,"employmentEntries":[{"sectorLabel":"Prof_Adm","employees":12396},{"sectorLabel":"TranspUtility","employees":1825},{"sectorLabel":"Recreation","employees":437},{"sectorLabel":"TradingCommercial","employees":11142},{"sectorLabel":"Manufacturing","employees":10438}]}],"employmentGrowthRates":[{"id":null,"sectorLabel":"Manufacturing","growthRate":0.3885801877754358},{"id":null,"sectorLabel":"Recreation","growthRate":0.33867276887871856},{"id":null,"sectorLabel":"TradingCommercial","growthRate":0.37802907915993544},{"id":null,"sectorLabel":"TranspUtility","growthRate":0.3380821917808219},{"id":null,"sectorLabel":"Prof_Adm","growthRate":0.2955792191029365}],"demographicTrends":[{"label":"Growth Trend","demographicData":[{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"Manufacturing","employees":100411},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"Prof_Adm","employees":90412},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"Manufacturing","employees":52076},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"TranspUtility","employees":6258},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"TradingCommercial","employees":20909},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"Recreation","employees":1142},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"TradingCommercial","employees":28813},{"@class":".ResidentialDemographicData","projectionLabel":"2036","totalPopulation":723370,"housingUnits":302244,"gQPopulation":null,"averageHouseholdSize":2.5947607620318456,"households":278781.0,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"TradingCommercial","employees":54715},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"TranspUtility","employees":4677},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"Manufacturing","employees":37503},{"@class":".ResidentialDemographicData","projectionLabel":"2026","totalPopulation":387658,"housingUnits":154387,"gQPopulation":null,"averageHouseholdSize":2.7222791814721705,"households":142402.0,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"TranspUtility","employees":11205},{"@class":".ResidentialDemographicData","projectionLabel":"2011","totalPopulation":152083,"housingUnits":56362,"gQPopulation":null,"averageHouseholdSize":2.9254044280300846,"households":51987.0,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"TranspUtility","employees":3495},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"TranspUtility","employees":8374},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"TranspUtility","employees":14993},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"Manufacturing","employees":72312},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"Manufacturing","employees":19450},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"TradingCommercial","employees":75399},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"Manufacturing","employees":27008},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"Recreation","employees":2740},{"@class":".ResidentialDemographicData","projectionLabel":"2016","totalPopulation":207748,"housingUnits":78861,"gQPopulation":null,"averageHouseholdSize":2.8560744579936483,"households":72739.0,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"Recreation","employees":3668},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"Prof_Adm","employees":41575},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"TradingCommercial","employees":39705},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"Prof_Adm","employees":24769},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"Prof_Adm","employees":53864},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"Prof_Adm","employees":69785},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"Prof_Adm","employees":32090},{"@class":".ResidentialDemographicData","projectionLabel":"2021","totalPopulation":283787,"housingUnits":110341,"gQPopulation":null,"averageHouseholdSize":2.788376320314419,"households":101775.0,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"Recreation","employees":2047},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"Recreation","employees":1529},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"TradingCommercial","employees":103902},{"@class":".ResidentialDemographicData","projectionLabel":"2031","totalPopulation":529547,"housingUnits":216015,"gQPopulation":null,"averageHouseholdSize":2.657754735352278,"households":199246.0,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"Recreation","employees":853}]},{"label":"External Trend","demographicData":[{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"TradingCommercial","employees":56368},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"Manufacturing","employees":40925},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"Recreation","employees":1795},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"TradingCommercial","employees":20909},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"TradingCommercial","employees":29559},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"Recreation","employees":853},{"@class":".ResidentialDemographicData","projectionLabel":"2026","totalPopulation":320000,"housingUnits":116364,"gQPopulation":1,"averageHouseholdSize":2.75,"households":null,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"Manufacturing","employees":48598},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"Recreation","employees":2300},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"TranspUtility","employees":9422},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"Prof_Adm","employees":40716},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"Prof_Adm","employees":35016},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"TradingCommercial","employees":43995},{"@class":".ResidentialDemographicData","projectionLabel":"2021","totalPopulation":250000,"housingUnits":90910,"gQPopulation":1,"averageHouseholdSize":2.75,"households":null,"vacantLand":null},{"@class":".ResidentialDemographicData","projectionLabel":"2016","totalPopulation":215000,"housingUnits":76786,"gQPopulation":1,"averageHouseholdSize":2.8,"households":null,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"TranspUtility","employees":3495},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"Prof_Adm","employees":66775},{"@class":".ResidentialDemographicData","projectionLabel":"2036","totalPopulation":410000,"housingUnits":154717,"gQPopulation":1,"averageHouseholdSize":2.65,"households":null,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"TranspUtility","employees":4941},{"@class":".ResidentialDemographicData","projectionLabel":"2011","totalPopulation":152082,"housingUnits":56362,"gQPopulation":1,"averageHouseholdSize":2.9,"households":null,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"Prof_Adm","employees":52117},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"TranspUtility","employees":5745},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"Recreation","employees":1206},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"Prof_Adm","employees":24769},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"Recreation","employees":2131},{"@class":".EmploymentDemographicData","projectionLabel":"2011","sectorLabel":"Manufacturing","employees":19450},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"TradingCommercial","employees":52244},{"@class":".EmploymentDemographicData","projectionLabel":"2026","sectorLabel":"TranspUtility","employees":7354},{"@class":".EmploymentDemographicData","projectionLabel":"2036","sectorLabel":"Manufacturing","employees":52435},{"@class":".EmploymentDemographicData","projectionLabel":"2016","sectorLabel":"Manufacturing","employees":27494},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"Manufacturing","employees":31973},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"Recreation","employees":1402},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"Prof_Adm","employees":61889},{"@class":".EmploymentDemographicData","projectionLabel":"2021","sectorLabel":"TradingCommercial","employees":34371},{"@class":".ResidentialDemographicData","projectionLabel":"2031","totalPopulation":380000,"housingUnits":140740,"gQPopulation":1,"averageHouseholdSize":2.7,"households":null,"vacantLand":null},{"@class":".EmploymentDemographicData","projectionLabel":"2031","sectorLabel":"TranspUtility","employees":8733}]}],"localJurisdictions":[],"includeTrends":true,"densityDemandInfo":[{"currentDensity":5.968992256391635,"futureDensity":5.968992256391635,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102a120","landuseName":"Private Recreation"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102a41b","landuseName":"Railway Proposed"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102cfb4","landuseName":"Urban Land"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1025b1c","landuseName":"Hole"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102f6c2","landuseName":"Education - Convertible"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027fd6","landuseName":"Nature / Passive Recreation"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1029796","landuseName":"Railway Existing"},{"currentDensity":297.9241202996387,"futureDensity":297.9241202996387,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027532","landuseName":"Commercial"},{"currentDensity":29.806022974276505,"futureDensity":29.806022974276505,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1026659","landuseName":"Industrial"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b10264a4","landuseName":"Transport"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102fed8","landuseName":"Water"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102c1cd","landuseName":"State Forest"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102dacc","landuseName":"Recreation"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102b2b6","landuseName":"Residential"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027c4f","landuseName":"Rural"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102d5ea","landuseName":"Industrial - Convertible"},{"currentDensity":14.901300093002716,"futureDensity":14.901300093002716,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102e87e","landuseName":"Education"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027363","landuseName":"Open Space - Passive Recreation"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b10289d6","landuseName":"Infrastructure / Public Purposes"}],"_rev":"4-3ac59f690f1ee2dc9192f9b068f205d2"},"suitabilityScenarios":[{"_id":"f7f24fc95346b07fdb8a5023b103ccb7","label":"Suitability_Scenario_1","docType":"SuitabilityScenario","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"Suitability_Scenario_1","suitabilityRules":[{"_id":"f7f24fc95346b07fdb8a5023b103de0e","docType":"SuitabilityRule","suitabilityLU":{"f7f24fc95346b07fdb8a5023b10307b6":"Industrial"},"convertibleLUs":{"f7f24fc95346b07fdb8a5023b102f6c2":"Education - Convertible","f7f24fc95346b07fdb8a5023b102d5ea":"Industrial - Convertible","f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"},"factorImportances":[{"factor":{"f7f24fc95346b07fdb8a5023b1037c7d":"EnviroValue"},"importance":50.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b10390de":"no"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1038392":"yes"},"score":0.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b10347af":"ActCentre"},"importance":5.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b1035d17":"Secondary Centre"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10356cb":"None"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10378d5":"Strategic AC"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1036c64":"District Centre"},"score":0.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b103192a":"UrbanValue"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b1033309":"High"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033511":"Medium"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10327a1":"Low"},"score":50.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033823":"Very Low"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1032f7c":"Unknown"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1031bf7":"Very High"},"score":0.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b1039c7e":"UrbanExpansion"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b103a8c8":"IndustrialExpansion"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103cbe2":"Urban Investigation"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103c06c":"Urban"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103ad1b":"Urban Expansion"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103ac24":"Urban Deferred"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103b1ff":"No Expansion"},"score":0.0}]}],"_rev":"2-c0f3923933af6fe8c666dae74c1a3577"},{"_id":"f7f24fc95346b07fdb8a5023b103df50","docType":"SuitabilityRule","suitabilityLU":{"f7f24fc95346b07fdb8a5023b1030a10":"Medical and Educational"},"convertibleLUs":{"f7f24fc95346b07fdb8a5023b102f6c2":"Education - Convertible","f7f24fc95346b07fdb8a5023b102d5ea":"Industrial - Convertible","f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"},"factorImportances":[{"factor":{"f7f24fc95346b07fdb8a5023b103192a":"UrbanValue"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b10327a1":"Low"},"score":60.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1032f7c":"Unknown"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033511":"Medium"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1031bf7":"Very High"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033823":"Very Low"},"score":20.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033309":"High"},"score":90.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b10347af":"ActCentre"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b1036c64":"District Centre"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10378d5":"Strategic AC"},"score":60.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1035d17":"Secondary Centre"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10356cb":"None"},"score":50.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b1039c7e":"UrbanExpansion"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b103c06c":"Urban"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103b1ff":"No Expansion"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103a8c8":"IndustrialExpansion"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103ad1b":"Urban Expansion"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103cbe2":"Urban Investigation"},"score":60.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103ac24":"Urban Deferred"},"score":100.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b1037c7d":"EnviroValue"},"importance":50.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b10390de":"no"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1038392":"yes"},"score":0.0}]}],"_rev":"2-efa184e3a4452f85399d65dcd0e7f19e"},{"_id":"f7f24fc95346b07fdb8a5023b103d66d","docType":"SuitabilityRule","suitabilityLU":{"f7f24fc95346b07fdb8a5023b103080a":"Commercial"},"convertibleLUs":{"f7f24fc95346b07fdb8a5023b102f6c2":"Education - Convertible","f7f24fc95346b07fdb8a5023b102d5ea":"Industrial - Convertible","f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"},"factorImportances":[{"factor":{"f7f24fc95346b07fdb8a5023b10347af":"ActCentre"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b1036c64":"District Centre"},"score":60.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10378d5":"Strategic AC"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10356cb":"None"},"score":50.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1035d17":"Secondary Centre"},"score":80.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b1039c7e":"UrbanExpansion"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b103ac24":"Urban Deferred"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103b1ff":"No Expansion"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103a8c8":"IndustrialExpansion"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103ad1b":"Urban Expansion"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103c06c":"Urban"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103cbe2":"Urban Investigation"},"score":60.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b103192a":"UrbanValue"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b1032f7c":"Unknown"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10327a1":"Low"},"score":60.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1031bf7":"Very High"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033511":"Medium"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033823":"Very Low"},"score":20.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033309":"High"},"score":90.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b1037c7d":"EnviroValue"},"importance":50.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b10390de":"no"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1038392":"yes"},"score":0.0}]}],"_rev":"2-9bc5521d5d3468333207f51c9ff1f733"},{"_id":"f7f24fc95346b07fdb8a5023b103d9b2","docType":"SuitabilityRule","suitabilityLU":{"f7f24fc95346b07fdb8a5023b10317cc":"Residential"},"convertibleLUs":{"f7f24fc95346b07fdb8a5023b102f6c2":"Education - Convertible","f7f24fc95346b07fdb8a5023b102d5ea":"Industrial - Convertible","f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"},"factorImportances":[{"factor":{"f7f24fc95346b07fdb8a5023b1037c7d":"EnviroValue"},"importance":50.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b10390de":"no"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1038392":"yes"},"score":0.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b10347af":"ActCentre"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b10356cb":"None"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1035d17":"Secondary Centre"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10378d5":"Strategic AC"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1036c64":"District Centre"},"score":0.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b103192a":"UrbanValue"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b1033511":"Medium"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1032f7c":"Unknown"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1031bf7":"Very High"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033823":"Very Low"},"score":20.0},{"factorType":{"f7f24fc95346b07fdb8a5023b10327a1":"Low"},"score":60.0},{"factorType":{"f7f24fc95346b07fdb8a5023b1033309":"High"},"score":90.0}]},{"factor":{"f7f24fc95346b07fdb8a5023b1039c7e":"UrbanExpansion"},"importance":100.0,"factorTypeRatings":[{"factorType":{"f7f24fc95346b07fdb8a5023b103ad1b":"Urban Expansion"},"score":80.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103c06c":"Urban"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103b1ff":"No Expansion"},"score":0.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103ac24":"Urban Deferred"},"score":100.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103cbe2":"Urban Investigation"},"score":50.0},{"factorType":{"f7f24fc95346b07fdb8a5023b103a8c8":"IndustrialExpansion"},"score":0.0}]}],"_rev":"2-a59199311d2de247577c039f28ab30a9"}],"ready":true,"_rev":"3-b79b37ef966dce9ce7521c3ba170f635"}],"allocationconfig":{"_id":"f7f24fc95346b07fdb8a5023b103eb26","docType":"AllocationConfigs","projectId":"f7f24fc95346b07fdb8a5023b1024c41","allocationColumnsMap":{"2011":"ALU_2011","2016":"ALU_2016","2021":"ALU_2021","2026":"ALU_2026","2031":"ALU_2031","2036":"ALU_2036"},"undevelopedLUsColumns":[],"plannedALUsFieldName":"Plan_LU","plannedALUs":[{"label":"Hole","associatedALUs":{"f7f24fc95346b07fdb8a5023b1025b1c":"Hole"}},{"label":"Education / Training","associatedALUs":{"f7f24fc95346b07fdb8a5023b102e87e":"Education"}},{"label":"Infrastructure / Public Purposes","associatedALUs":{"f7f24fc95346b07fdb8a5023b102f6c2":"Education - Convertible","f7f24fc95346b07fdb8a5023b102d5ea":"Industrial - Convertible","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b10289d6":"Infrastructure / Public Purposes","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"}},{"label":"Nature / Passive Recreation","associatedALUs":{"f7f24fc95346b07fdb8a5023b1027fd6":"Nature / Passive Recreation"}},{"label":"Transport","associatedALUs":{"f7f24fc95346b07fdb8a5023b10264a4":"Transport"}},{"label":"Established Residential","associatedALUs":{"f7f24fc95346b07fdb8a5023b102b2b6":"Residential"}},{"label":"Industrial","associatedALUs":{"f7f24fc95346b07fdb8a5023b1026659":"Industrial","f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land"}},{"label":"Urban Land","associatedALUs":{"f7f24fc95346b07fdb8a5023b102f6c2":"Education - Convertible","f7f24fc95346b07fdb8a5023b102d5ea":"Industrial - Convertible","f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027532":"Commercial","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"}},{"label":"Activity Centre","associatedALUs":{"f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027532":"Commercial"}},{"label":"Water","associatedALUs":{"f7f24fc95346b07fdb8a5023b102fed8":"Water"}},{"label":"Recreation","associatedALUs":{"f7f24fc95346b07fdb8a5023b102dacc":"Recreation"}},{"label":"Developed","associatedALUs":{"f7f24fc95346b07fdb8a5023b1027532":"Commercial","f7f24fc95346b07fdb8a5023b1027c4f":"Rural","f7f24fc95346b07fdb8a5023b1027363":"Open Space - Passive Recreation"}},{"label":"Rural","associatedALUs":{"f7f24fc95346b07fdb8a5023b1027c4f":"Rural"}},{"label":"Private Recreation","associatedALUs":{"f7f24fc95346b07fdb8a5023b102a120":"Private Recreation"}},{"label":"Railway Proposed","associatedALUs":{"f7f24fc95346b07fdb8a5023b102a41b":"Railway Proposed"}},{"label":"Commercial","associatedALUs":{"f7f24fc95346b07fdb8a5023b102cfb4":"Urban Land","f7f24fc95346b07fdb8a5023b1027532":"Commercial","f7f24fc95346b07fdb8a5023b1027c4f":"Rural"}},{"label":"State Forest","associatedALUs":{"f7f24fc95346b07fdb8a5023b102c1cd":"State Forest"}},{"label":"Railway Existing","associatedALUs":{"f7f24fc95346b07fdb8a5023b1029796":"Railway Existing"}}],"infrastructureALUs":[{"label":"InfrastructureControl","fieldName":"Inf_Trans"}],"growthPatternALUs":[{"label":"TransportCorridor","fieldName":"TransGrowt"},{"label":"ActTranspGrowth","fieldName":"GrowthUtil"}],"colorALUs":[{"label":"Urban Land","associatedColors":"#d9d9d9"},{"label":"Open Space - Passive Recreation","associatedColors":"#ccebc5"},{"label":"Rural","associatedColors":"#b6763a"},{"label":"Education - Convertible","associatedColors":"#180b81"},{"label":"State Forest","associatedColors":"#337100"},{"label":"Commercial","associatedColors":"#ee2cbe"},{"label":"Recreation","associatedColors":"#80b1d3"},{"label":"Railway Existing","associatedColors":"#898989"},{"label":"Infrastructure / Public Purposes","associatedColors":"#980043"},{"label":"Transport","associatedColors":"#f2f2f2"},{"label":"Water","associatedColors":"#b6f7fd"},{"label":"Railway Proposed","associatedColors":"#b2b2b2"},{"label":"Industrial","associatedColors":"cab2d6"},{"label":"Education","associatedColors":"#1f78b4"},{"label":"Industrial - Convertible","associatedColors":"#6a3d9a"},{"label":"Hole","associatedColors":"#000"},{"label":"Residential","associatedColors":"#ffffb3"},{"label":"Nature / Passive Recreation","associatedColors":"#b2df8a"},{"label":"Private Recreation","associatedColors":"#fdb462"}],"_rev":"1-996fdd8800764ead573a1e21ad866503"},"allocationControlScenarios":[{"_id":"f7f24fc95346b07fdb8a5023b103f0e7","label":"AllocationControl_Scenario1","docType":"AllocationControlScenario","projectId":"f7f24fc95346b07fdb8a5023b1024c41","infrastructureUses":[{"landuseName":"Open Space - Passive Recreation","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Residential","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Railway Existing","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Education","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Hole","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Transport","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Infrastructure / Public Purposes","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Recreation","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Water","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Private Recreation","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"State Forest","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Urban Land","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Railway Proposed","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Industrial - Convertible","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Industrial","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Rural","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Nature / Passive Recreation","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Education - Convertible","infrastructureMap":{"InfrastructureControl":"N/A"}},{"landuseName":"Commercial","infrastructureMap":{"InfrastructureControl":"N/A"}}],"growthPatternControl":true,"growthPatternControlLabels":["ActTranspGrowth"],"plannedlandUseControl":false,"infrastructureControl":false,"infrastructureControlLabels":[],"_rev":"2-89b6e93f49efc43a1b975de74306982d"}],"allocationScenarios":[{"_id":"f7f24fc95346b07fdb8a5023b10401d3","label":"AllocationScenario1","docType":"AllocationScenario","suitabilityScenarioId":"f7f24fc95346b07fdb8a5023b103ccb7","demandScenarioId":"","projectId":"f7f24fc95346b07fdb8a5023b1024c41","featureFieldName":"AllocationScenario1","controlScenarioId":"f7f24fc95346b07fdb8a5023b103f0e7","manualdemandScenarioId":"f7f24fc95346b07fdb8a5023b103f10a","landUseOrderMap":{"f7f24fc95346b07fdb8a5023b1027532":1,"f7f24fc95346b07fdb8a5023b102b2b6":2,"f7f24fc95346b07fdb8a5023b102e87e":3,"f7f24fc95346b07fdb8a5023b1026659":4},"ready":false,"manual":true,"_rev":"2-e4ba54827232936c2c8c9c3c05c70949"}],"demandScenarios":[{"_id":"f7f24fc95346b07fdb8a5023b103f10a","label":"DemandScenario1","docType":"DemandScenario","projectId":"f7f24fc95346b07fdb8a5023b1024c41","demandInfos":[{"@class":".EmploymentDemandInfo","projectedDatas":[],"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"sectorLabel":"TradingCommercial"},{"@class":".ResidentialDemandInfo","allocationLUId":"f7f24fc95346b07fdb8a5023b102b2b6","futureBreakdownByHType":1.0,"currentDensity":15.12,"futureDensity":30.0,"futureVacancyRate":0.1,"infillRate":0.1,"residentialLUId":"f7f24fc95346b07fdb8a5023b102b2b6"},{"@class":".EmploymentDemandInfo","projectedDatas":[],"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"sectorLabel":"TranspUtility"},{"@class":".EmploymentDemandInfo","projectedDatas":[],"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"sectorLabel":"Prof_Adm"},{"@class":".EmploymentDemandInfo","projectedDatas":[],"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"sectorLabel":"Manufacturing"},{"@class":".EmploymentDemandInfo","projectedDatas":[],"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"sectorLabel":"Recreation"}],"localDatas":[],"demographicTrendLabel":"External Trend","densityDemandInfo":[{"currentDensity":5.968992256391635,"futureDensity":5.968992256391635,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102a120","landuseName":"Private Recreation"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1029796","landuseName":"Railway Existing"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102a41b","landuseName":"Railway Proposed"},{"currentDensity":297.9241202996387,"futureDensity":297.9241202996387,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027532","landuseName":"Commercial"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b10289d6","landuseName":"Infrastructure / Public Purposes"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b10264a4","landuseName":"Transport"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102f6c2","landuseName":"Education - Convertible"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102fed8","landuseName":"Water"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027c4f","landuseName":"Rural"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1025b1c","landuseName":"Hole"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102b2b6","landuseName":"Residential"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102cfb4","landuseName":"Urban Land"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102d5ea","landuseName":"Industrial - Convertible"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027fd6","landuseName":"Nature / Passive Recreation"},{"currentDensity":29.806022974276505,"futureDensity":29.806022974276505,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1026659","landuseName":"Industrial"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b1027363","landuseName":"Open Space - Passive Recreation"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102c1cd","landuseName":"State Forest"},{"currentDensity":0.0,"futureDensity":0.0,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102dacc","landuseName":"Recreation"},{"currentDensity":14.901300093002716,"futureDensity":14.901300093002716,"infillRate":0.0,"landuseID":"f7f24fc95346b07fdb8a5023b102e87e","landuseName":"Education"}],"_rev":"2-8bb7b6bbafb553c63e86232d7639898f"}],"demandOutcomes":[{"_id":"f7f24fc95346b07fdb8a5023b103e2e0","label":"DemandOutcomeScenario1","docType":"DemandOutcome","projectId":"f7f24fc95346b07fdb8a5023b1024c41","areaRequirements":[{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102b2b6","allocationLULabel":"Residential","requiredArea":1800.0,"projectionLabel":"2036"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102e87e","allocationLULabel":"Education","requiredArea":25.0,"projectionLabel":"2016"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1027532","allocationLULabel":"Commercial","requiredArea":30.0,"projectionLabel":"2016"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102e87e","allocationLULabel":"Education","requiredArea":18.0,"projectionLabel":"2036"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102b2b6","allocationLULabel":"Residential","requiredArea":2000.0,"projectionLabel":"2031"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1026659","allocationLULabel":"Industrial","requiredArea":400.0,"projectionLabel":"2016"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102e87e","allocationLULabel":"Education","requiredArea":15.0,"projectionLabel":"2026"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1026659","allocationLULabel":"Industrial","requiredArea":300.0,"projectionLabel":"2031"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1026659","allocationLULabel":"Industrial","requiredArea":250.0,"projectionLabel":"2036"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1027532","allocationLULabel":"Commercial","requiredArea":20.0,"projectionLabel":"2031"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102b2b6","allocationLULabel":"Residential","requiredArea":2026.0,"projectionLabel":"2026"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1027532","allocationLULabel":"Commercial","requiredArea":25.0,"projectionLabel":"2026"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1026659","allocationLULabel":"Industrial","requiredArea":350.0,"projectionLabel":"2021"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102b2b6","allocationLULabel":"Residential","requiredArea":2000.0,"projectionLabel":"2021"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102b2b6","allocationLULabel":"Residential","requiredArea":1800.0,"projectionLabel":"2016"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1026659","allocationLULabel":"Industrial","requiredArea":300.0,"projectionLabel":"2026"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102e87e","allocationLULabel":"Education","requiredArea":20.0,"projectionLabel":"2031"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b102e87e","allocationLULabel":"Education","requiredArea":20.0,"projectionLabel":"2021"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1027532","allocationLULabel":"Commercial","requiredArea":26.0,"projectionLabel":"2021"},{"@class":".AreaRequirement","docType":"AreaRequirement","allocationLUId":"f7f24fc95346b07fdb8a5023b1027532","allocationLULabel":"Commercial","requiredArea":20.0,"projectionLabel":"2036"}],"_rev":"2-6c917c744e27efe00e690ecb188e6143"}],"_id":"e67b8719f2b4aa99a7666ae69e0525a4","_rev":"1-db3db2c8054ef433ab38b118ec90bb82"}
+{
+  "docType": "ProjectReport",
+  "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+  "label": "WannerooAdmin",
+  "reportType": "WifProject",
+  "serviceVersion": "1.0",
+  "project": {
+    "_id": "f7f24fc95346b07fdb8a5023b1024c41",
+    "name": "Demo_for_alireza.shamakhy@unimelb.edu.au",
+    "srs": "EPSG:28350",
+    "analysisOption": "Suitability",
+    "originalUnits": "metric",
+    "existingLUAttributeName": "Exist_LU_S",
+    "docType": "WifProject",
+    "studyArea": "Wanneroo WA",
+    "bbox": "[363306.82919999957,6475574.153,394259.08480000024,6519190.3862000005]",
+    "areaLabel": "Area_ha",
+    "ready": true,
+    "setupCompleted": true,
+    "geometryColumnName": "the_geom",
+    "creationDate": 1449554980309,
+    "modifiedDate": 1454904684617,
+    "roleOwner": "alireza.shamakhy@unimelb.edu.au",
+    "suitabilityConfig": {
+      "unifiedAreaZone": "wanneroo",
+      "notDevelopableScore": -100.0,
+      "notConvertableScore": -1.0,
+      "notSuitableScore": 0.0,
+      "undefinedScore": -999.0,
+      "suitabilityColumns": [
+        "score_medical_and_educational",
+        "Exist_LU_S",
+        "score_residential",
+        "score_commercial",
+        "score_industrial"
+      ],
+      "suitabilityCategories": [
+        "Medium",
+        "Low",
+        "Medium High",
+        "Medium Low",
+        "High"
+      ],
+      "scoreColumns": [
+        "score_medical_and_educational",
+        "score_commercial",
+        "score_residential",
+        "score_industrial"
+      ]
+    },
+    "allocationLandUses": [
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1025b1c",
+        "label": "Hole",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Hole",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-5364b790b9810eb50f4c3ec1d242bd17",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102d5ea",
+        "label": "Industrial - Convertible",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Industrial - Convertible",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": false,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-4ba45db710abace25575210404ece5ee",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1029796",
+        "label": "Railway Existing",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Railway Existing",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-06e605415fc47523d7880fd4227f25cf",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102fed8",
+        "label": "Water",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Water",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-706744eabd9971732c828346a44e75f7",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102f6c2",
+        "label": "Education - Convertible",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Education - Convertible",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": false,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-d5937e28df4987a3ce16313961412393",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102dacc",
+        "label": "Recreation",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Recreation",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-838a0573de261089cb310e5a8357abfd",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1026659",
+        "label": "Industrial",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Industrial",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-ae8d15ab69d92e4a6123f9b3d7eda0e2",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1027fd6",
+        "label": "Nature / Passive Recreation",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Nature / Passive Recreation",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-034cf952db5218ba3cbbb7250d29f0b3",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102a120",
+        "label": "Private Recreation",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Private Recreation",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-5adec731776688b05ad237a41baba6a7",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102c1cd",
+        "label": "State Forest",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "State Forest",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-24b20da7e6c8c0017d32afcb6cb70346",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102cfb4",
+        "label": "Urban Land",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Urban Land",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": false,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-72079d0b631c2baecb85e4727e02e31d",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b10289d6",
+        "label": "Infrastructure / Public Purposes",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Infrastructure / Public Purposes",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-38c6911ce1a5fdda734ef35067c91afa",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102a41b",
+        "label": "Railway Proposed",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Railway Proposed",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-ec6e19fb3c1b810eaa528d4d25d2e049",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1027363",
+        "label": "Open Space - Passive Recreation",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Open Space - Passive Recreation",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": false,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-07204e72214b69c732129f44f3fbf435",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102b2b6",
+        "label": "Residential",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Residential",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-1623fe11009ab861cddf0a965f859a31",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b10264a4",
+        "label": "Transport",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Transport",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-2ab01bca7210504441f9b7a565ba80db",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b102e87e",
+        "label": "Education",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Education",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-290772c71614d962b09ed32f24f3d005",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1027c4f",
+        "label": "Rural",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Rural",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": false,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-dfd899a8625ac83c4cf9fd8b92a6e8a7",
+        "sectors": []
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1027532",
+        "label": "Commercial",
+        "docType": "AllocationLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Commercial",
+        "landUseFunction": "NOT_DEVELOPABLE_OR_UNDEFINED",
+        "groupQuarters": false,
+        "newLU": false,
+        "local": false,
+        "builtUp": false,
+        "notDevelopable": true,
+        "notDefined": false,
+        "newPreservation": false,
+        "_rev": "1-b364ec5028a0954d9ca639359a1fa4aa",
+        "sectors": []
+      }
+    ],
+    "suitabilityLUs": [
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1030a10",
+        "docType": "SuitabilityLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "label": "Medical and Educational",
+        "featureFieldName": "score_medical_and_educational",
+        "_rev": "1-bcd5d95093fb60064e17facdc3f0df30",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102e87e": "Education"
+        }
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b10317cc",
+        "docType": "SuitabilityLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "label": "Residential",
+        "featureFieldName": "score_residential",
+        "_rev": "1-e2160c116263951b7386b62ebabb0ec3",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102b2b6": "Residential"
+        }
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b10307b6",
+        "docType": "SuitabilityLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "label": "Industrial",
+        "featureFieldName": "score_industrial",
+        "_rev": "1-0103b31a0fc779cbbbb552d4e911d2d1",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1026659": "Industrial"
+        }
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b103080a",
+        "docType": "SuitabilityLU",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "label": "Commercial",
+        "featureFieldName": "score_commercial",
+        "_rev": "1-9527d6d0ccc4afa280c71091797c1d5e",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial"
+        }
+      }
+    ],
+    "factors": [
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1037c7d",
+        "label": "EnviroValue",
+        "docType": "Factor",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "Env_Value",
+        "factorTypes": [
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1038392",
+            "label": "yes",
+            "value": "yes",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1037c7d",
+            "naturalOrder": 1,
+            "_rev": "1-76a98aec7e9e9b556c90c625cf117677"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b10390de",
+            "label": "no",
+            "value": "no",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1037c7d",
+            "naturalOrder": 0,
+            "_rev": "1-440b5c7b6f5cfd8e3a63cb1f89e76041"
+          }
+        ],
+        "_rev": "2-d85b999cb98f51f4ac8d6b65c6de1bff"
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b103192a",
+        "label": "UrbanValue",
+        "docType": "Factor",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "UrbanValue",
+        "factorTypes": [
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1032f7c",
+            "label": "Unknown",
+            "value": "Unknown",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b103192a",
+            "naturalOrder": 3,
+            "_rev": "1-1913fa240c91707f34d9aa9057a7c0e3"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1033823",
+            "label": "Very Low",
+            "value": "Very Low",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b103192a",
+            "naturalOrder": 5,
+            "_rev": "1-95b116a7a4d2686ad8305679b4a40aab"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1033309",
+            "label": "High",
+            "value": "High",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b103192a",
+            "naturalOrder": 0,
+            "_rev": "1-9a20afb01e926ea1ce3ec21e854c3428"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1033511",
+            "label": "Medium",
+            "value": "Medium",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b103192a",
+            "naturalOrder": 2,
+            "_rev": "1-6fc8611785a3aaa38998d1aa12feff72"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1031bf7",
+            "label": "Very High",
+            "value": "Very High",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b103192a",
+            "naturalOrder": 4,
+            "_rev": "1-46e650afd7093b7ede9ca35be8202f18"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b10327a1",
+            "label": "Low",
+            "value": "Low",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b103192a",
+            "naturalOrder": 1,
+            "_rev": "1-f1d55260e299ff770d0b144d72f17e6b"
+          }
+        ],
+        "_rev": "2-6a98d1fe6cc03cb3b03b09ed8253c021"
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b10347af",
+        "label": "ActCentre",
+        "docType": "Factor",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "ActCentre",
+        "factorTypes": [
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b10378d5",
+            "label": "Strategic AC",
+            "value": "Strategic AC",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b10347af",
+            "naturalOrder": 3,
+            "_rev": "1-9a0f30edbcb839325d87daa9c7d676bd"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1036c64",
+            "label": "District Centre",
+            "value": "District Centre",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b10347af",
+            "naturalOrder": 0,
+            "_rev": "1-094c55362c35a3c2513602d0380981d4"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b10356cb",
+            "label": "None",
+            "value": "None",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b10347af",
+            "naturalOrder": 1,
+            "_rev": "1-3446bc886ff1a8c755e2aa92d902a894"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b1035d17",
+            "label": "Secondary Centre",
+            "value": "Secondary Centre",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b10347af",
+            "naturalOrder": 2,
+            "_rev": "1-03027a1bc36662e3f43fa6d94c277fd3"
+          }
+        ],
+        "_rev": "2-54da5629411584af0a337debc4ac1601"
+      },
+      {
+        "_id": "f7f24fc95346b07fdb8a5023b1039c7e",
+        "label": "UrbanExpansion",
+        "docType": "Factor",
+        "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+        "featureFieldName": "UrbanExpan",
+        "factorTypes": [
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b103ad1b",
+            "label": "Urban Expansion",
+            "value": "Urban Expansion",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1039c7e",
+            "naturalOrder": 4,
+            "_rev": "1-0e6ee5a322cb84b5feffaae22ea616ca"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b103cbe2",
+            "label": "Urban Investigation",
+            "value": "Urban Investigation",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1039c7e",
+            "naturalOrder": 5,
+            "_rev": "1-9278ac6578d36bc306c20cb972b3e624"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b103a8c8",
+            "label": "IndustrialExpansion",
+            "value": "IndustrialExpansion",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1039c7e",
+            "naturalOrder": 0,
+            "_rev": "1-8c20830c68507c9f41a1b978725f002d"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b103b1ff",
+            "label": "No Expansion",
+            "value": "No Expansion",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1039c7e",
+            "naturalOrder": 1,
+            "_rev": "1-76c2d35a3ea4f8f986bf150c5ea15635"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b103c06c",
+            "label": "Urban",
+            "value": "Urban",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1039c7e",
+            "naturalOrder": 2,
+            "_rev": "1-3d9efa925d23cf1175181b3a11e9fdeb"
+          },
+          {
+            "_id": "f7f24fc95346b07fdb8a5023b103ac24",
+            "label": "Urban Deferred",
+            "value": "Urban Deferred",
+            "docType": "FactorType",
+            "factorId": "f7f24fc95346b07fdb8a5023b1039c7e",
+            "naturalOrder": 3,
+            "_rev": "1-949fb848548a14d367150f2c3e1bcb34"
+          }
+        ],
+        "_rev": "2-9c7a5ae8e592ba91a4cc2229285b6165"
+      }
+    ],
+    "allocationConfigsId": "f7f24fc95346b07fdb8a5023b103eb26",
+    "demandConfigId": "f7f24fc95346b07fdb8a5023b103f717",
+    "allocationConfig": {
+      "allocationColumnsMap": {},
+      "undevelopedLUsColumns": []
+    },
+    "_rev": "17-783c37f79292c45016b798b828125e5f",
+    "suitabilityScenarios": {},
+    "demandScenarios": {},
+    "demandScenarioNews": {},
+    "demandOutcomes": {},
+    "allocationScenarios": {},
+    "allocationControlScenarios": {
+      "f7f24fc95346b07fdb8a5023b103f0e7": "AllocationControl_Scenario1"
+    }
+  },
+  "demandConfig": {
+    "_id": "f7f24fc95346b07fdb8a5023b103f717",
+    "docType": "DemandConfig",
+    "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+    "populationGrowthRate": 0.3660161300252416,
+    "gqGrowthRate": 0.0,
+    "householdsGrowthRate": 0.39918146605276617,
+    "baseYear": 2011,
+    "totalPopulationFeatureFieldName": "",
+    "numberOfHouseholdsFeatureFieldName": "",
+    "numberOfHousingUnitsFeatureFieldName": "",
+    "projections": [
+      {
+        "year": 2026,
+        "label": "2026"
+      },
+      {
+        "year": 2021,
+        "label": "2021"
+      },
+      {
+        "year": 2031,
+        "label": "2031"
+      },
+      {
+        "year": 2011,
+        "label": "2011"
+      },
+      {
+        "year": 2036,
+        "label": "2036"
+      },
+      {
+        "year": 2016,
+        "label": "2016"
+      }
+    ],
+    "sectors": [
+      {
+        "code": "02",
+        "label": "TranspUtility",
+        "featureFieldName": "Transp_Uti",
+        "associatedALUsPercentage": {
+          "f7f24fc95346b07fdb8a5023b1026659": 0.9525882316948514,
+          "f7f24fc95346b07fdb8a5023b1027532": 0.04741176830514858
+        },
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1026659": "Industrial",
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial"
+        }
+      },
+      {
+        "code": "04",
+        "label": "Prof_Adm",
+        "featureFieldName": "Prof_Adm",
+        "associatedALUsPercentage": {
+          "f7f24fc95346b07fdb8a5023b102e87e": 0.03477877005724202,
+          "f7f24fc95346b07fdb8a5023b1026659": 0.9194583846255013,
+          "f7f24fc95346b07fdb8a5023b1027532": 0.04576284531725658
+        },
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1026659": "Industrial",
+          "f7f24fc95346b07fdb8a5023b102e87e": "Education",
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial"
+        }
+      },
+      {
+        "code": "01",
+        "label": "Manufacturing",
+        "featureFieldName": "Manufactur",
+        "associatedALUsPercentage": {
+          "f7f24fc95346b07fdb8a5023b1026659": 1.0
+        },
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1026659": "Industrial"
+        }
+      },
+      {
+        "code": "05",
+        "label": "Recreation",
+        "featureFieldName": "Recreation",
+        "associatedALUsPercentage": {
+          "f7f24fc95346b07fdb8a5023b102a120": 0.46770876423243063,
+          "f7f24fc95346b07fdb8a5023b1027532": 0.5322912357675694
+        },
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102a120": "Private Recreation",
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial"
+        }
+      },
+      {
+        "code": "03",
+        "label": "TradingCommercial",
+        "featureFieldName": "Trading_Co",
+        "associatedALUsPercentage": {
+          "f7f24fc95346b07fdb8a5023b1027532": 1.0
+        },
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial"
+        }
+      }
+    ],
+    "currentDemographic": {
+      "label": "2011",
+      "year": 2011,
+      "residentialCurrentData": [
+        {
+          "residentialLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "numberOfHousingUnits": 56362,
+          "density": 15.12,
+          "breakdownDensity": 1.0,
+          "vacancyRate": 0.1
+        }
+      ],
+      "employmentCurrentDatas": [
+        {
+          "sectorLabel": "Prof_Adm",
+          "employees": 24769
+        },
+        {
+          "sectorLabel": "Manufacturing",
+          "employees": 19450
+        },
+        {
+          "sectorLabel": "Recreation",
+          "employees": 853
+        },
+        {
+          "sectorLabel": "TradingCommercial",
+          "employees": 20909
+        },
+        {
+          "sectorLabel": "TranspUtility",
+          "employees": 3495
+        }
+      ],
+      "totalPopulation": 152083,
+      "housingUnits": 56362,
+      "households": 51987.0,
+      "vacancyRate": 0.1
+    },
+    "residentialPastTrendInfos": [
+      {
+        "label": "2001",
+        "year": 2001,
+        "totalPopulation": 81215,
+        "households": 27366,
+        "gQPopulation": 1
+      },
+      {
+        "label": "2006",
+        "year": 2006,
+        "totalPopulation": 110941,
+        "households": 38290,
+        "gQPopulation": 1
+      }
+    ],
+    "employmentPastTrendInfos": [
+      {
+        "label": "2006",
+        "year": 2006,
+        "employmentEntries": [
+          {
+            "sectorLabel": "TranspUtility",
+            "employees": 2442
+          },
+          {
+            "sectorLabel": "Prof_Adm",
+            "employees": 16060
+          },
+          {
+            "sectorLabel": "TradingCommercial",
+            "employees": 15354
+          },
+          {
+            "sectorLabel": "Manufacturing",
+            "employees": 14494
+          },
+          {
+            "sectorLabel": "Recreation",
+            "employees": 585
+          }
+        ]
+      },
+      {
+        "label": "2001",
+        "year": 2001,
+        "employmentEntries": [
+          {
+            "sectorLabel": "Prof_Adm",
+            "employees": 12396
+          },
+          {
+            "sectorLabel": "TranspUtility",
+            "employees": 1825
+          },
+          {
+            "sectorLabel": "Recreation",
+            "employees": 437
+          },
+          {
+            "sectorLabel": "TradingCommercial",
+            "employees": 11142
+          },
+          {
+            "sectorLabel": "Manufacturing",
+            "employees": 10438
+          }
+        ]
+      }
+    ],
+    "employmentGrowthRates": [
+      {
+        "id": null,
+        "sectorLabel": "Manufacturing",
+        "growthRate": 0.3885801877754358
+      },
+      {
+        "id": null,
+        "sectorLabel": "Recreation",
+        "growthRate": 0.33867276887871856
+      },
+      {
+        "id": null,
+        "sectorLabel": "TradingCommercial",
+        "growthRate": 0.37802907915993544
+      },
+      {
+        "id": null,
+        "sectorLabel": "TranspUtility",
+        "growthRate": 0.3380821917808219
+      },
+      {
+        "id": null,
+        "sectorLabel": "Prof_Adm",
+        "growthRate": 0.2955792191029365
+      }
+    ],
+    "demographicTrends": [
+      {
+        "label": "Growth Trend",
+        "demographicData": [
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "Manufacturing",
+            "employees": 100411
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "Prof_Adm",
+            "employees": 90412
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "Manufacturing",
+            "employees": 52076
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "TranspUtility",
+            "employees": 6258
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "TradingCommercial",
+            "employees": 20909
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "Recreation",
+            "employees": 1142
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "TradingCommercial",
+            "employees": 28813
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2036",
+            "totalPopulation": 723370,
+            "housingUnits": 302244,
+            "gQPopulation": null,
+            "averageHouseholdSize": 2.5947607620318456,
+            "households": 278781.0,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "TradingCommercial",
+            "employees": 54715
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "TranspUtility",
+            "employees": 4677
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "Manufacturing",
+            "employees": 37503
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2026",
+            "totalPopulation": 387658,
+            "housingUnits": 154387,
+            "gQPopulation": null,
+            "averageHouseholdSize": 2.7222791814721705,
+            "households": 142402.0,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "TranspUtility",
+            "employees": 11205
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2011",
+            "totalPopulation": 152083,
+            "housingUnits": 56362,
+            "gQPopulation": null,
+            "averageHouseholdSize": 2.9254044280300846,
+            "households": 51987.0,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "TranspUtility",
+            "employees": 3495
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "TranspUtility",
+            "employees": 8374
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "TranspUtility",
+            "employees": 14993
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "Manufacturing",
+            "employees": 72312
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "Manufacturing",
+            "employees": 19450
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "TradingCommercial",
+            "employees": 75399
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "Manufacturing",
+            "employees": 27008
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "Recreation",
+            "employees": 2740
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2016",
+            "totalPopulation": 207748,
+            "housingUnits": 78861,
+            "gQPopulation": null,
+            "averageHouseholdSize": 2.8560744579936483,
+            "households": 72739.0,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "Recreation",
+            "employees": 3668
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "Prof_Adm",
+            "employees": 41575
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "TradingCommercial",
+            "employees": 39705
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "Prof_Adm",
+            "employees": 24769
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "Prof_Adm",
+            "employees": 53864
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "Prof_Adm",
+            "employees": 69785
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "Prof_Adm",
+            "employees": 32090
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2021",
+            "totalPopulation": 283787,
+            "housingUnits": 110341,
+            "gQPopulation": null,
+            "averageHouseholdSize": 2.788376320314419,
+            "households": 101775.0,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "Recreation",
+            "employees": 2047
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "Recreation",
+            "employees": 1529
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "TradingCommercial",
+            "employees": 103902
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2031",
+            "totalPopulation": 529547,
+            "housingUnits": 216015,
+            "gQPopulation": null,
+            "averageHouseholdSize": 2.657754735352278,
+            "households": 199246.0,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "Recreation",
+            "employees": 853
+          }
+        ]
+      },
+      {
+        "label": "External Trend",
+        "demographicData": [
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "TradingCommercial",
+            "employees": 56368
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "Manufacturing",
+            "employees": 40925
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "Recreation",
+            "employees": 1795
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "TradingCommercial",
+            "employees": 20909
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "TradingCommercial",
+            "employees": 29559
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "Recreation",
+            "employees": 853
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2026",
+            "totalPopulation": 320000,
+            "housingUnits": 116364,
+            "gQPopulation": 1,
+            "averageHouseholdSize": 2.75,
+            "households": null,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "Manufacturing",
+            "employees": 48598
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "Recreation",
+            "employees": 2300
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "TranspUtility",
+            "employees": 9422
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "Prof_Adm",
+            "employees": 40716
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "Prof_Adm",
+            "employees": 35016
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "TradingCommercial",
+            "employees": 43995
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2021",
+            "totalPopulation": 250000,
+            "housingUnits": 90910,
+            "gQPopulation": 1,
+            "averageHouseholdSize": 2.75,
+            "households": null,
+            "vacantLand": null
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2016",
+            "totalPopulation": 215000,
+            "housingUnits": 76786,
+            "gQPopulation": 1,
+            "averageHouseholdSize": 2.8,
+            "households": null,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "TranspUtility",
+            "employees": 3495
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "Prof_Adm",
+            "employees": 66775
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2036",
+            "totalPopulation": 410000,
+            "housingUnits": 154717,
+            "gQPopulation": 1,
+            "averageHouseholdSize": 2.65,
+            "households": null,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "TranspUtility",
+            "employees": 4941
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2011",
+            "totalPopulation": 152082,
+            "housingUnits": 56362,
+            "gQPopulation": 1,
+            "averageHouseholdSize": 2.9,
+            "households": null,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "Prof_Adm",
+            "employees": 52117
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "TranspUtility",
+            "employees": 5745
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "Recreation",
+            "employees": 1206
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "Prof_Adm",
+            "employees": 24769
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "Recreation",
+            "employees": 2131
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2011",
+            "sectorLabel": "Manufacturing",
+            "employees": 19450
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "TradingCommercial",
+            "employees": 52244
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2026",
+            "sectorLabel": "TranspUtility",
+            "employees": 7354
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2036",
+            "sectorLabel": "Manufacturing",
+            "employees": 52435
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2016",
+            "sectorLabel": "Manufacturing",
+            "employees": 27494
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "Manufacturing",
+            "employees": 31973
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "Recreation",
+            "employees": 1402
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "Prof_Adm",
+            "employees": 61889
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2021",
+            "sectorLabel": "TradingCommercial",
+            "employees": 34371
+          },
+          {
+            "@class": ".ResidentialDemographicData",
+            "projectionLabel": "2031",
+            "totalPopulation": 380000,
+            "housingUnits": 140740,
+            "gQPopulation": 1,
+            "averageHouseholdSize": 2.7,
+            "households": null,
+            "vacantLand": null
+          },
+          {
+            "@class": ".EmploymentDemographicData",
+            "projectionLabel": "2031",
+            "sectorLabel": "TranspUtility",
+            "employees": 8733
+          }
+        ]
+      }
+    ],
+    "localJurisdictions": [],
+    "includeTrends": true,
+    "densityDemandInfo": [
+      {
+        "currentDensity": 5.968992256391635,
+        "futureDensity": 5.968992256391635,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102a120",
+        "landuseName": "Private Recreation"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102a41b",
+        "landuseName": "Railway Proposed"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102cfb4",
+        "landuseName": "Urban Land"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1025b1c",
+        "landuseName": "Hole"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102f6c2",
+        "landuseName": "Education - Convertible"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1027fd6",
+        "landuseName": "Nature / Passive Recreation"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1029796",
+        "landuseName": "Railway Existing"
+      },
+      {
+        "currentDensity": 297.9241202996387,
+        "futureDensity": 297.9241202996387,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1027532",
+        "landuseName": "Commercial"
+      },
+      {
+        "currentDensity": 29.806022974276505,
+        "futureDensity": 29.806022974276505,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1026659",
+        "landuseName": "Industrial"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b10264a4",
+        "landuseName": "Transport"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102fed8",
+        "landuseName": "Water"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102c1cd",
+        "landuseName": "State Forest"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102dacc",
+        "landuseName": "Recreation"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102b2b6",
+        "landuseName": "Residential"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1027c4f",
+        "landuseName": "Rural"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102d5ea",
+        "landuseName": "Industrial - Convertible"
+      },
+      {
+        "currentDensity": 14.901300093002716,
+        "futureDensity": 14.901300093002716,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b102e87e",
+        "landuseName": "Education"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b1027363",
+        "landuseName": "Open Space - Passive Recreation"
+      },
+      {
+        "currentDensity": 0.0,
+        "futureDensity": 0.0,
+        "infillRate": 0.0,
+        "landuseID": "f7f24fc95346b07fdb8a5023b10289d6",
+        "landuseName": "Infrastructure / Public Purposes"
+      }
+    ],
+    "_rev": "4-3ac59f690f1ee2dc9192f9b068f205d2"
+  },
+  "suitabilityScenarios": [
+    {
+      "_id": "f7f24fc95346b07fdb8a5023b103ccb7",
+      "label": "Suitability_Scenario_1",
+      "docType": "SuitabilityScenario",
+      "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+      "featureFieldName": "Suitability_Scenario_1",
+      "suitabilityRules": [
+        {
+          "_id": "f7f24fc95346b07fdb8a5023b103de0e",
+          "docType": "SuitabilityRule",
+          "suitabilityLU": {
+            "f7f24fc95346b07fdb8a5023b10307b6": "Industrial"
+          },
+          "convertibleLUs": {
+            "f7f24fc95346b07fdb8a5023b102f6c2": "Education - Convertible",
+            "f7f24fc95346b07fdb8a5023b102d5ea": "Industrial - Convertible",
+            "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+            "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+            "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+          },
+          "factorImportances": [
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1037c7d": "EnviroValue"
+              },
+              "importance": 50.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10390de": "no"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1038392": "yes"
+                  },
+                  "score": 0.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b10347af": "ActCentre"
+              },
+              "importance": 5.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1035d17": "Secondary Centre"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10356cb": "None"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10378d5": "Strategic AC"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1036c64": "District Centre"
+                  },
+                  "score": 0.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b103192a": "UrbanValue"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033309": "High"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033511": "Medium"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10327a1": "Low"
+                  },
+                  "score": 50.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033823": "Very Low"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1032f7c": "Unknown"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1031bf7": "Very High"
+                  },
+                  "score": 0.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1039c7e": "UrbanExpansion"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103a8c8": "IndustrialExpansion"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103cbe2": "Urban Investigation"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103c06c": "Urban"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ad1b": "Urban Expansion"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ac24": "Urban Deferred"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103b1ff": "No Expansion"
+                  },
+                  "score": 0.0
+                }
+              ]
+            }
+          ],
+          "_rev": "2-c0f3923933af6fe8c666dae74c1a3577"
+        },
+        {
+          "_id": "f7f24fc95346b07fdb8a5023b103df50",
+          "docType": "SuitabilityRule",
+          "suitabilityLU": {
+            "f7f24fc95346b07fdb8a5023b1030a10": "Medical and Educational"
+          },
+          "convertibleLUs": {
+            "f7f24fc95346b07fdb8a5023b102f6c2": "Education - Convertible",
+            "f7f24fc95346b07fdb8a5023b102d5ea": "Industrial - Convertible",
+            "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+            "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+            "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+          },
+          "factorImportances": [
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b103192a": "UrbanValue"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10327a1": "Low"
+                  },
+                  "score": 60.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1032f7c": "Unknown"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033511": "Medium"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1031bf7": "Very High"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033823": "Very Low"
+                  },
+                  "score": 20.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033309": "High"
+                  },
+                  "score": 90.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b10347af": "ActCentre"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1036c64": "District Centre"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10378d5": "Strategic AC"
+                  },
+                  "score": 60.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1035d17": "Secondary Centre"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10356cb": "None"
+                  },
+                  "score": 50.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1039c7e": "UrbanExpansion"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103c06c": "Urban"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103b1ff": "No Expansion"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103a8c8": "IndustrialExpansion"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ad1b": "Urban Expansion"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103cbe2": "Urban Investigation"
+                  },
+                  "score": 60.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ac24": "Urban Deferred"
+                  },
+                  "score": 100.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1037c7d": "EnviroValue"
+              },
+              "importance": 50.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10390de": "no"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1038392": "yes"
+                  },
+                  "score": 0.0
+                }
+              ]
+            }
+          ],
+          "_rev": "2-efa184e3a4452f85399d65dcd0e7f19e"
+        },
+        {
+          "_id": "f7f24fc95346b07fdb8a5023b103d66d",
+          "docType": "SuitabilityRule",
+          "suitabilityLU": {
+            "f7f24fc95346b07fdb8a5023b103080a": "Commercial"
+          },
+          "convertibleLUs": {
+            "f7f24fc95346b07fdb8a5023b102f6c2": "Education - Convertible",
+            "f7f24fc95346b07fdb8a5023b102d5ea": "Industrial - Convertible",
+            "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+            "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+            "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+          },
+          "factorImportances": [
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b10347af": "ActCentre"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1036c64": "District Centre"
+                  },
+                  "score": 60.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10378d5": "Strategic AC"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10356cb": "None"
+                  },
+                  "score": 50.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1035d17": "Secondary Centre"
+                  },
+                  "score": 80.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1039c7e": "UrbanExpansion"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ac24": "Urban Deferred"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103b1ff": "No Expansion"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103a8c8": "IndustrialExpansion"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ad1b": "Urban Expansion"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103c06c": "Urban"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103cbe2": "Urban Investigation"
+                  },
+                  "score": 60.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b103192a": "UrbanValue"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1032f7c": "Unknown"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10327a1": "Low"
+                  },
+                  "score": 60.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1031bf7": "Very High"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033511": "Medium"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033823": "Very Low"
+                  },
+                  "score": 20.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033309": "High"
+                  },
+                  "score": 90.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1037c7d": "EnviroValue"
+              },
+              "importance": 50.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10390de": "no"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1038392": "yes"
+                  },
+                  "score": 0.0
+                }
+              ]
+            }
+          ],
+          "_rev": "2-9bc5521d5d3468333207f51c9ff1f733"
+        },
+        {
+          "_id": "f7f24fc95346b07fdb8a5023b103d9b2",
+          "docType": "SuitabilityRule",
+          "suitabilityLU": {
+            "f7f24fc95346b07fdb8a5023b10317cc": "Residential"
+          },
+          "convertibleLUs": {
+            "f7f24fc95346b07fdb8a5023b102f6c2": "Education - Convertible",
+            "f7f24fc95346b07fdb8a5023b102d5ea": "Industrial - Convertible",
+            "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+            "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+            "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+          },
+          "factorImportances": [
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1037c7d": "EnviroValue"
+              },
+              "importance": 50.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10390de": "no"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1038392": "yes"
+                  },
+                  "score": 0.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b10347af": "ActCentre"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10356cb": "None"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1035d17": "Secondary Centre"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10378d5": "Strategic AC"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1036c64": "District Centre"
+                  },
+                  "score": 0.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b103192a": "UrbanValue"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033511": "Medium"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1032f7c": "Unknown"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1031bf7": "Very High"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033823": "Very Low"
+                  },
+                  "score": 20.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b10327a1": "Low"
+                  },
+                  "score": 60.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b1033309": "High"
+                  },
+                  "score": 90.0
+                }
+              ]
+            },
+            {
+              "factor": {
+                "f7f24fc95346b07fdb8a5023b1039c7e": "UrbanExpansion"
+              },
+              "importance": 100.0,
+              "factorTypeRatings": [
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ad1b": "Urban Expansion"
+                  },
+                  "score": 80.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103c06c": "Urban"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103b1ff": "No Expansion"
+                  },
+                  "score": 0.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103ac24": "Urban Deferred"
+                  },
+                  "score": 100.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103cbe2": "Urban Investigation"
+                  },
+                  "score": 50.0
+                },
+                {
+                  "factorType": {
+                    "f7f24fc95346b07fdb8a5023b103a8c8": "IndustrialExpansion"
+                  },
+                  "score": 0.0
+                }
+              ]
+            }
+          ],
+          "_rev": "2-a59199311d2de247577c039f28ab30a9"
+        }
+      ],
+      "ready": true,
+      "_rev": "3-b79b37ef966dce9ce7521c3ba170f635"
+    }
+  ],
+  "allocationconfig": {
+    "_id": "f7f24fc95346b07fdb8a5023b103eb26",
+    "docType": "AllocationConfigs",
+    "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+    "allocationColumnsMap": {
+      "2011": "ALU_2011",
+      "2016": "ALU_2016",
+      "2021": "ALU_2021",
+      "2026": "ALU_2026",
+      "2031": "ALU_2031",
+      "2036": "ALU_2036"
+    },
+    "undevelopedLUsColumns": [],
+    "plannedALUsFieldName": "Plan_LU",
+    "plannedALUs": [
+      {
+        "label": "Hole",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1025b1c": "Hole"
+        }
+      },
+      {
+        "label": "Education / Training",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102e87e": "Education"
+        }
+      },
+      {
+        "label": "Infrastructure / Public Purposes",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102f6c2": "Education - Convertible",
+          "f7f24fc95346b07fdb8a5023b102d5ea": "Industrial - Convertible",
+          "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+          "f7f24fc95346b07fdb8a5023b10289d6": "Infrastructure / Public Purposes",
+          "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+        }
+      },
+      {
+        "label": "Nature / Passive Recreation",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1027fd6": "Nature / Passive Recreation"
+        }
+      },
+      {
+        "label": "Transport",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b10264a4": "Transport"
+        }
+      },
+      {
+        "label": "Established Residential",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102b2b6": "Residential"
+        }
+      },
+      {
+        "label": "Industrial",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1026659": "Industrial",
+          "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land"
+        }
+      },
+      {
+        "label": "Urban Land",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102f6c2": "Education - Convertible",
+          "f7f24fc95346b07fdb8a5023b102d5ea": "Industrial - Convertible",
+          "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial",
+          "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+          "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+        }
+      },
+      {
+        "label": "Activity Centre",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial"
+        }
+      },
+      {
+        "label": "Water",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102fed8": "Water"
+        }
+      },
+      {
+        "label": "Recreation",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102dacc": "Recreation"
+        }
+      },
+      {
+        "label": "Developed",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial",
+          "f7f24fc95346b07fdb8a5023b1027c4f": "Rural",
+          "f7f24fc95346b07fdb8a5023b1027363": "Open Space - Passive Recreation"
+        }
+      },
+      {
+        "label": "Rural",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1027c4f": "Rural"
+        }
+      },
+      {
+        "label": "Private Recreation",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102a120": "Private Recreation"
+        }
+      },
+      {
+        "label": "Railway Proposed",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102a41b": "Railway Proposed"
+        }
+      },
+      {
+        "label": "Commercial",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102cfb4": "Urban Land",
+          "f7f24fc95346b07fdb8a5023b1027532": "Commercial",
+          "f7f24fc95346b07fdb8a5023b1027c4f": "Rural"
+        }
+      },
+      {
+        "label": "State Forest",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b102c1cd": "State Forest"
+        }
+      },
+      {
+        "label": "Railway Existing",
+        "associatedALUs": {
+          "f7f24fc95346b07fdb8a5023b1029796": "Railway Existing"
+        }
+      }
+    ],
+    "infrastructureALUs": [
+      {
+        "label": "InfrastructureControl",
+        "fieldName": "Inf_Trans"
+      }
+    ],
+    "growthPatternALUs": [
+      {
+        "label": "TransportCorridor",
+        "fieldName": "TransGrowt"
+      },
+      {
+        "label": "ActTranspGrowth",
+        "fieldName": "GrowthUtil"
+      }
+    ],
+    "colorALUs": [
+      {
+        "label": "Urban Land",
+        "associatedColors": "#d9d9d9"
+      },
+      {
+        "label": "Open Space - Passive Recreation",
+        "associatedColors": "#ccebc5"
+      },
+      {
+        "label": "Rural",
+        "associatedColors": "#b6763a"
+      },
+      {
+        "label": "Education - Convertible",
+        "associatedColors": "#180b81"
+      },
+      {
+        "label": "State Forest",
+        "associatedColors": "#337100"
+      },
+      {
+        "label": "Commercial",
+        "associatedColors": "#ee2cbe"
+      },
+      {
+        "label": "Recreation",
+        "associatedColors": "#80b1d3"
+      },
+      {
+        "label": "Railway Existing",
+        "associatedColors": "#898989"
+      },
+      {
+        "label": "Infrastructure / Public Purposes",
+        "associatedColors": "#980043"
+      },
+      {
+        "label": "Transport",
+        "associatedColors": "#f2f2f2"
+      },
+      {
+        "label": "Water",
+        "associatedColors": "#b6f7fd"
+      },
+      {
+        "label": "Railway Proposed",
+        "associatedColors": "#b2b2b2"
+      },
+      {
+        "label": "Industrial",
+        "associatedColors": "cab2d6"
+      },
+      {
+        "label": "Education",
+        "associatedColors": "#1f78b4"
+      },
+      {
+        "label": "Industrial - Convertible",
+        "associatedColors": "#6a3d9a"
+      },
+      {
+        "label": "Hole",
+        "associatedColors": "#000"
+      },
+      {
+        "label": "Residential",
+        "associatedColors": "#ffffb3"
+      },
+      {
+        "label": "Nature / Passive Recreation",
+        "associatedColors": "#b2df8a"
+      },
+      {
+        "label": "Private Recreation",
+        "associatedColors": "#fdb462"
+      }
+    ],
+    "_rev": "1-996fdd8800764ead573a1e21ad866503"
+  },
+  "allocationControlScenarios": [
+    {
+      "_id": "f7f24fc95346b07fdb8a5023b103f0e7",
+      "label": "AllocationControl_Scenario1",
+      "docType": "AllocationControlScenario",
+      "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+      "infrastructureUses": [
+        {
+          "landuseName": "Open Space - Passive Recreation",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Residential",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Railway Existing",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Education",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Hole",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Transport",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Infrastructure / Public Purposes",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Recreation",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Water",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Private Recreation",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "State Forest",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Urban Land",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Railway Proposed",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Industrial - Convertible",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Industrial",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Rural",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Nature / Passive Recreation",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Education - Convertible",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        },
+        {
+          "landuseName": "Commercial",
+          "infrastructureMap": {
+            "InfrastructureControl": "N/A"
+          }
+        }
+      ],
+      "growthPatternControl": true,
+      "growthPatternControlLabels": [
+        "ActTranspGrowth"
+      ],
+      "plannedlandUseControl": false,
+      "infrastructureControl": false,
+      "infrastructureControlLabels": [],
+      "_rev": "2-89b6e93f49efc43a1b975de74306982d"
+    }
+  ],
+  "allocationScenarios": [
+    {
+      "_id": "f7f24fc95346b07fdb8a5023b10401d3",
+      "label": "AllocationScenario1",
+      "docType": "AllocationScenario",
+      "suitabilityScenarioId": "f7f24fc95346b07fdb8a5023b103ccb7",
+      "demandScenarioId": "",
+      "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+      "featureFieldName": "AllocationScenario1",
+      "controlScenarioId": "f7f24fc95346b07fdb8a5023b103f0e7",
+      "manualdemandScenarioId": "f7f24fc95346b07fdb8a5023b103f10a",
+      "landUseOrderMap": {
+        "f7f24fc95346b07fdb8a5023b1027532": 1,
+        "f7f24fc95346b07fdb8a5023b102b2b6": 2,
+        "f7f24fc95346b07fdb8a5023b102e87e": 3,
+        "f7f24fc95346b07fdb8a5023b1026659": 4
+      },
+      "ready": false,
+      "manual": true,
+      "_rev": "2-e4ba54827232936c2c8c9c3c05c70949"
+    }
+  ],
+  "demandScenarios": [
+    {
+      "_id": "f7f24fc95346b07fdb8a5023b103f10a",
+      "label": "DemandScenario1",
+      "docType": "DemandScenario",
+      "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+      "demandInfos": [
+        {
+          "@class": ".EmploymentDemandInfo",
+          "projectedDatas": [],
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "sectorLabel": "TradingCommercial"
+        },
+        {
+          "@class": ".ResidentialDemandInfo",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "futureBreakdownByHType": 1.0,
+          "currentDensity": 15.12,
+          "futureDensity": 30.0,
+          "futureVacancyRate": 0.1,
+          "infillRate": 0.1,
+          "residentialLUId": "f7f24fc95346b07fdb8a5023b102b2b6"
+        },
+        {
+          "@class": ".EmploymentDemandInfo",
+          "projectedDatas": [],
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "sectorLabel": "TranspUtility"
+        },
+        {
+          "@class": ".EmploymentDemandInfo",
+          "projectedDatas": [],
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "sectorLabel": "Prof_Adm"
+        },
+        {
+          "@class": ".EmploymentDemandInfo",
+          "projectedDatas": [],
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "sectorLabel": "Manufacturing"
+        },
+        {
+          "@class": ".EmploymentDemandInfo",
+          "projectedDatas": [],
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "sectorLabel": "Recreation"
+        }
+      ],
+      "localDatas": [],
+      "demographicTrendLabel": "External Trend",
+      "densityDemandInfo": [
+        {
+          "currentDensity": 5.968992256391635,
+          "futureDensity": 5.968992256391635,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102a120",
+          "landuseName": "Private Recreation"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1029796",
+          "landuseName": "Railway Existing"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102a41b",
+          "landuseName": "Railway Proposed"
+        },
+        {
+          "currentDensity": 297.9241202996387,
+          "futureDensity": 297.9241202996387,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1027532",
+          "landuseName": "Commercial"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b10289d6",
+          "landuseName": "Infrastructure / Public Purposes"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b10264a4",
+          "landuseName": "Transport"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102f6c2",
+          "landuseName": "Education - Convertible"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102fed8",
+          "landuseName": "Water"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1027c4f",
+          "landuseName": "Rural"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1025b1c",
+          "landuseName": "Hole"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "landuseName": "Residential"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102cfb4",
+          "landuseName": "Urban Land"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102d5ea",
+          "landuseName": "Industrial - Convertible"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1027fd6",
+          "landuseName": "Nature / Passive Recreation"
+        },
+        {
+          "currentDensity": 29.806022974276505,
+          "futureDensity": 29.806022974276505,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1026659",
+          "landuseName": "Industrial"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b1027363",
+          "landuseName": "Open Space - Passive Recreation"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102c1cd",
+          "landuseName": "State Forest"
+        },
+        {
+          "currentDensity": 0.0,
+          "futureDensity": 0.0,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102dacc",
+          "landuseName": "Recreation"
+        },
+        {
+          "currentDensity": 14.901300093002716,
+          "futureDensity": 14.901300093002716,
+          "infillRate": 0.0,
+          "landuseID": "f7f24fc95346b07fdb8a5023b102e87e",
+          "landuseName": "Education"
+        }
+      ],
+      "_rev": "2-8bb7b6bbafb553c63e86232d7639898f"
+    }
+  ],
+  "demandOutcomes": [
+    {
+      "_id": "f7f24fc95346b07fdb8a5023b103e2e0",
+      "label": "DemandOutcomeScenario1",
+      "docType": "DemandOutcome",
+      "projectId": "f7f24fc95346b07fdb8a5023b1024c41",
+      "areaRequirements": [
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "allocationLULabel": "Residential",
+          "requiredArea": 1800.0,
+          "projectionLabel": "2036"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102e87e",
+          "allocationLULabel": "Education",
+          "requiredArea": 25.0,
+          "projectionLabel": "2016"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1027532",
+          "allocationLULabel": "Commercial",
+          "requiredArea": 30.0,
+          "projectionLabel": "2016"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102e87e",
+          "allocationLULabel": "Education",
+          "requiredArea": 18.0,
+          "projectionLabel": "2036"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "allocationLULabel": "Residential",
+          "requiredArea": 2000.0,
+          "projectionLabel": "2031"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1026659",
+          "allocationLULabel": "Industrial",
+          "requiredArea": 400.0,
+          "projectionLabel": "2016"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102e87e",
+          "allocationLULabel": "Education",
+          "requiredArea": 15.0,
+          "projectionLabel": "2026"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1026659",
+          "allocationLULabel": "Industrial",
+          "requiredArea": 300.0,
+          "projectionLabel": "2031"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1026659",
+          "allocationLULabel": "Industrial",
+          "requiredArea": 250.0,
+          "projectionLabel": "2036"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1027532",
+          "allocationLULabel": "Commercial",
+          "requiredArea": 20.0,
+          "projectionLabel": "2031"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "allocationLULabel": "Residential",
+          "requiredArea": 2026.0,
+          "projectionLabel": "2026"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1027532",
+          "allocationLULabel": "Commercial",
+          "requiredArea": 25.0,
+          "projectionLabel": "2026"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1026659",
+          "allocationLULabel": "Industrial",
+          "requiredArea": 350.0,
+          "projectionLabel": "2021"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "allocationLULabel": "Residential",
+          "requiredArea": 2000.0,
+          "projectionLabel": "2021"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102b2b6",
+          "allocationLULabel": "Residential",
+          "requiredArea": 1800.0,
+          "projectionLabel": "2016"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1026659",
+          "allocationLULabel": "Industrial",
+          "requiredArea": 300.0,
+          "projectionLabel": "2026"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102e87e",
+          "allocationLULabel": "Education",
+          "requiredArea": 20.0,
+          "projectionLabel": "2031"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b102e87e",
+          "allocationLULabel": "Education",
+          "requiredArea": 20.0,
+          "projectionLabel": "2021"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1027532",
+          "allocationLULabel": "Commercial",
+          "requiredArea": 26.0,
+          "projectionLabel": "2021"
+        },
+        {
+          "@class": ".AreaRequirement",
+          "docType": "AreaRequirement",
+          "allocationLUId": "f7f24fc95346b07fdb8a5023b1027532",
+          "allocationLULabel": "Commercial",
+          "requiredArea": 20.0,
+          "projectionLabel": "2036"
+        }
+      ],
+      "_rev": "2-6c917c744e27efe00e690ecb188e6143"
+    }
+  ],
+  "_id": "e67b8719f2b4aa99a7666ae69e0525a4",
+  "_rev": "1-db3db2c8054ef433ab38b118ec90bb82"
+}
